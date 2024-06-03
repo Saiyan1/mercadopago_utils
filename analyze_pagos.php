@@ -1,4 +1,10 @@
 <?php
+/*
+    Este script genera un archivo HTML con los detalles de los pagos realizados a través de la API de MercadoPago.
+    El archivo variables.php debe contener las siguientes variables:
+    - $integrator_id: ID del integrador.
+    - $accessToken: Token de autorización de la API de MercadoPago.
+ */
 //Importar archivo de variables sensibles
 require_once 'variables.php';
 
